@@ -81,6 +81,7 @@
     <Compile Include="Model\INumberConverter.cs" />
     <Compile Include="Model\NumberConverterFactory.cs" />
     <Compile Include="Model\NumericalNumberConverter.cs" />
+    <Compile Include="Model\OctalNumberConverter.cs" />
     <Compile Include="Model\RomanNumberConverter.cs" />
     <Compile Include="ViewModel\MainViewModel.cs" />
     <Compile Include="ViewModel\ValueConverterViewModel.cs" />

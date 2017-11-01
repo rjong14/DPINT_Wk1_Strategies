@@ -12,7 +12,8 @@ namespace DPINT_Wk1_Strategies.Model {
             ["Numerical"]=new NumericalNumberConverter (),
             ["Roman"]=new RomanNumberConverter (),
             ["Hexadecimal"]=new HexadecimalNumberConverter (),
-            ["Binary"]=new BinaryNumberConverter ()
+            ["Binary"]=new BinaryNumberConverter (),
+            ["Octal"]=new OctalNumberConverter ()
         };
         public INumberConverter GetConverter(string name) => converters[name];
     }
